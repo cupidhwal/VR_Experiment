@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Dialogue>
+		<number>0</number>
+		<character>0</character>
+		<name>선생님</name>
+		<sentence>안녕하세요, VR 과학 실험실에 오신 것을 환영합니다.</sentence>
+	</Dialogue>
+	<Dialogue>
+		<number>0</number>
+		<character>0</character>
+		<name>선생님</name>
+		<sentence>오늘은 불꽃 반응을 실험해볼 거예요. 우선 실험에 앞서 불꽃 반응에 대해 간략히 설명해드리겠습니다.</sentence>
+	</Dialogue>
+	<Dialogue>
+		<number>0</number>
+		<character>0</character>
+		<name>선생님</name>
+		<sentence>불꽃 반응이란, 금속 이온이 열 에너지를 받아 특정 파장의 빛을 방출하는 현상을 말해요.</sentence>
+	</Dialogue>
+	<Dialogue>
+		<number>0</number>
+		<character>0</character>
+		<name>선생님</name>
+		<sentence>원소들은 모두 서로 다른 오비탈 에너지 준위를 갖기 때문에, 불꽃 반응은 금속을 식별하는 데 자주 사용된답니다.</sentence>
+	</Dialogue>
+	<Dialogue>
+		<number>0</number>
+		<character>0</character>
+		<name>선생님</name>
+		<sentence>예를 들어 리튬은 붉은색, 마그네슘은 하얀색, 포타슘은 보라색, 구리는 청록색, 바륨은 녹색으로 나타나지요.</sentence>
+	</Dialogue>
+	<Dialogue>
+		<number>0</number>
+		<character>0</character>
+		<name>선생님</name>
+		<sentence>자, 여러분 앞에는 다섯 개의 금속 막대가 준비되어 있어요.</sentence>
+	</Dialogue>
+	<Dialogue>
+		<number>0</number>
+		<character>0</character>
+		<name>선생님</name>
+		<sentence>지금부터 하나씩 실습하면서, 각각의 막대가 어떤 금속인지 한번 알아볼까요?</sentence>
+	</Dialogue>
+</root>

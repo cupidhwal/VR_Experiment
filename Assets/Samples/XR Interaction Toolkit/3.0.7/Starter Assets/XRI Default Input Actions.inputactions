@@ -27,7 +27,7 @@
                     "name": "Is Tracked",
                     "type": "Button",
                     "id": "6bb4e248-e42b-47c3-b66c-79566508ca74",
-                    "expectedControlType": "",
+                    "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
@@ -890,7 +890,7 @@
                     "name": "Activate",
                     "type": "Button",
                     "id": "0c0991c5-d329-4afc-8892-1076b440477c",
-                    "expectedControlType": "",
+                    "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -962,7 +962,7 @@
                     "name": "Scale Toggle",
                     "type": "Button",
                     "id": "80ed7d74-56de-473c-bf76-da3bdd16b562",
-                    "expectedControlType": "",
+                    "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -1961,7 +1961,7 @@
                     "name": "Activate",
                     "type": "Button",
                     "id": "41976d89-60de-4deb-bff9-16b4af96b290",
-                    "expectedControlType": "",
+                    "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -2046,15 +2046,6 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
-                },
-                {
-                    "name": "Jump",
-                    "type": "Button",
-                    "id": "1ead15e6-686a-4268-a7ad-18f5b991df13",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -2343,17 +2334,6 @@
                     "action": "Translate Manipulation",
                     "isComposite": false,
                     "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "4bfdc800-2abb-4fea-9661-040097ec9e11",
-                    "path": "<OculusTouchController>{RightHand}/primaryButton",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Jump",
-                    "isComposite": false,
-                    "isPartOfComposite": false
                 }
             ]
         },
@@ -2564,34 +2544,7 @@
                 {
                     "name": "GameMenu",
                     "type": "Button",
-                    "id": "8a98055a-0cd1-4ef9-a772-7e8ae469c20f",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
-                    "name": "Inventory",
-                    "type": "Button",
-                    "id": "172f0498-f84a-462a-952a-44c75726dc63",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
-                    "name": "YBtn",
-                    "type": "Button",
-                    "id": "64ba8f1e-b32d-490a-816f-595e7a0ca97c",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
-                    "name": "BBtn",
-                    "type": "Button",
-                    "id": "4ba62e1f-3dce-4738-8724-85ce21736d9a",
+                    "id": "5be7388d-1b95-4aa6-9565-15b478d8ceaa",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -2684,17 +2637,6 @@
                     "processors": "",
                     "groups": "",
                     "action": "RightClick",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "641bbd37-3604-4823-958d-e08abbe3f269",
-                    "path": "<XRController>{LeftHand}/{MenuButton}",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "GameMenu",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -2997,34 +2939,12 @@
                 },
                 {
                     "name": "",
-                    "id": "c32cc61d-0bd1-47fe-833e-fb69a358632d",
-                    "path": "<XRInputV1::Oculus::OculusTouchControllerOpenXR>{LeftHand}/primarybutton",
+                    "id": "7754e28f-6864-456f-ba1f-c99fdd82d8a9",
+                    "path": "<XRController>{LeftHand}/{MenuButton}",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Inventory",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "1a018d17-0969-4a4b-8c32-a57c6a635355",
-                    "path": "<OculusTouchController>{LeftHand}/secondaryButton",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "YBtn",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "1f9afb1b-884c-42c7-91d5-16ee9a710b53",
-                    "path": "<XRInputV1::Oculus::OculusTouchControllerOpenXR>{RightHand}/secondarybutton",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "BBtn",
+                    "action": "GameMenu",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
